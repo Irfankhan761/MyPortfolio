@@ -1,0 +1,92 @@
+/* Home Section CSS */
+.homePage {
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.leftHome {
+    width: 55%;
+    text-align: justify;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.rightHome {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightHome img {
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+    width: 400px;
+    height: 400px;
+}
+
+@media only screen and (max-width:766px) {
+    .homePage {
+        display: block;
+        width: 100%;
+    }
+
+    .leftHome {
+        width: 80%;
+        font-size: 23px;
+        margin-left: 40px;
+        margin-top: 20px;
+        position: relative;
+        top: 260px;
+        z-index: -1;
+
+    }
+
+    .rightHome {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .rightHome img {
+        position: absolute;
+        top: 80px;
+        left: 60px;
+        width: 250px;
+        height: 250px;
+
+    }
+
+}
+
+@media only screen and (min-width:767px) and (max-width:1023px) {
+    .homePage {
+        width: 92%;
+        align-items: flex-start;
+        position: relative;
+        top: 120px;
+
+    }
+
+    .leftHome {
+        width: 50%;
+        font-size: 25px;
+
+    }
+
+    .rightHome {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightHome img {
+        width: 340px;
+        height: 340px;
+    }
+
+
+}

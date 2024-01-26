@@ -1,0 +1,140 @@
+/* Contact Page */
+.contactPage {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 70px;
+}
+
+.contactType {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.contactType img {
+    height: 80px;
+    width: 80px;
+}
+
+.myInfo {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.contctBtn {
+    background-color: orangered;
+    border: 2px solid orangered;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px;
+
+}
+
+@media only screen and (max-width:376px) {
+
+    .contactPage {
+        flex-direction: column;
+        margin-top: 85px;
+    }
+
+    .contactType {
+        width: 96%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+
+    .contactType img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .myInfo {
+        font-size: 20px;
+
+    }
+
+    .contctBtn {
+
+        font-size: 15px;
+
+        padding: 5px;
+
+    }
+}
+
+@media only screen and (min-width:377px) and (max-width:766px) {
+    .contactPage {
+        flex-direction: column;
+
+    }
+
+    .contactType {
+        width: 96%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+
+    .contactType img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .myInfo {
+        font-size: 23px;
+
+    }
+
+    .contctBtn {
+
+        font-size: 23px;
+
+        padding: 6px;
+
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1023px) {
+
+
+    .contactType {
+        width: 45%;
+        margin-top: 20px;
+
+    }
+
+    .contactType img {
+        height: 75px;
+        width: 75px;
+    }
+
+    .myInfo {
+        font-size: 24px;
+
+    }
+
+    .contctBtn {
+
+        font-size: 24px;
+
+        padding: 7px;
+
+    }
+}

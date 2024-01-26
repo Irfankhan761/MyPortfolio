@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, serif;
+}
+
+/* Navbar section */
+.navbar {
+    width: 100%;
+    display: flex;
+    color: orangered;
+    box-shadow: 2px 2px 29px rgb(180, 178, 178);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    /* Set your desired background color */
+    z-index: 1000;
+}
+
+.leftNavbar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+
+.humberger {
+    display: none;
+}
+
+.humBtn {
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+
+.rightNavbar {
+    width: 70%;
+}
+
+.navList {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    right: 28px;
+    z-index: 1;
+}
+
+.list {
+    list-style: none;
+    transition: ease-in-out 0.3s;
+}
+
+.list:hover {
+    scale: 1.2;
+}
+
+.navBtn {
+    text-decoration: none;
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+@media only screen and (max-width:766px) {
+
+    .leftNavbar {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    .humberger {
+        display: block;
+        margin-right: 1rem;
+
+    }
+
+    .rightNavbar {
+        width: auto;
+    }
+
+    .navList {
+        flex-direction: column;
+        position: absolute;
+        top: 3.6rem;
+        right: 0;
+        background-color: orangered;
+        height: 100vh;
+        justify-content: start;
+        display: none;
+    }
+
+    .list {
+        margin-top: 20px;
+    }
+
+    .list img {
+        margin-top: -5px;
+        margin-left: 20px;
+
+    }
+
+    .navBtn {
+        color: white;
+        font-size: 18px;
+    }
+
+    .hideShow {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width:767px) and (max-width:1023px) {
+
+    .logo {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    .navBtn {
+        font-size: 22px;
+        margin-top: 5px;
+
+    }
+}
