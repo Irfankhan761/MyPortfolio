@@ -33,23 +33,24 @@ To run this project locally, follow these steps:
 2. Change into the project directory:
 cd your-portfolio
 
-Open index.html in your preferred browser.
+3. Open index.html in your preferred browser.
 
-Usage
+## Usage
 Navigate through the sections of the website to learn more about me, my skills, and the projects I've worked on. Feel free to click on project links to explore them further.
 
-Contributing
+## Contributing
 If you'd like to contribute to my portfolio, please follow these guidelines:
 
-Fork the repository.
-Create a new branch for your feature: git checkout -b feature-name.
-Commit your changes: git commit -m 'Add a new feature'.
-Push to the branch: git push origin feature-name.
-Submit a pull request.
-License
+1. Fork the repository.
+2. Create a new branch for your feature: git checkout -b feature-name.
+3. Commit your changes: git commit -m 'Add a new feature'.
+4. Push to the branch: git push origin feature-name.
+5. Submit a pull request.
+
+## License
 This project is licensed under the MIT License.
 
-Contact
+## Contact
 You can reach me via email or connect with me on LinkedIn.
 
 Happy coding! 🚀
