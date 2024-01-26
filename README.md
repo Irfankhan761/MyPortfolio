@@ -12,8 +12,8 @@ Check out the live demo: [My Portfolio](https://irfankhan761.github.io/MyPortfol
 
 ## Screenshots
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
+![Screenshot 1](./screenshot1.png)
+![Screenshot 2](./screenshot2.png)
 
 ## Technologies Used
 
