@@ -47,9 +47,6 @@ If you'd like to contribute to my portfolio, please follow these guidelines:
 4. Push to the branch: git push origin feature-name.
 5. Submit a pull request.
 
-## License
-This project is licensed under the MIT License.
-
 ## Contact
 You can reach me via email or connect with me on LinkedIn.
 
