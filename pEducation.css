@@ -1,0 +1,73 @@
+/* Education Page */
+.educationPage {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    top: 70px;
+}
+.program{
+    width: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    min-height: 100px;
+}
+.program >*{
+    /* color: aqua; */
+    margin: 5px;
+}
+.program >h3{
+   color: orangered;
+}
+.program >p{
+   font-weight: bold;
+   font-size: 14px;
+}
+
+
+@media only screen and (max-width:376px) {
+
+    .educationPage {
+        flex-direction: column;
+        margin-top: 85px;
+    }
+
+    .program {
+        width: 96%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+
+}
+
+@media only screen and (min-width:377px) and (max-width:766px) {
+    .educationPage {
+        flex-direction: column;
+
+    }
+
+    .program {
+        width: 96%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1023px) {
+
+
+    .program {
+        width: 45%;
+        margin-top: 20px;
+
+    }
+}
