@@ -114,6 +114,7 @@
     .projectPage {
         display: flex;
         flex-direction: column;
+        top: 50px;
 
 
 
