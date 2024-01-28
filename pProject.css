@@ -1,6 +1,6 @@
 /* Projects Section */
 .projectPage {
-    width: 94%;
+    width: 98%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +69,7 @@
     .projectPage {
         display: flex;
         flex-direction: column;
-        margin-top: 85px;
+        top: 140px;
 
 
 
@@ -154,9 +154,9 @@
 @media only screen and (min-width:767px) and (max-width:1023px) {
 
     .projectItems {
-        width: 47%;
-        margin: auto;
+        width: 46%;
         margin-top: 20px;
+
 
 
     }

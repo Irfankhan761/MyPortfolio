@@ -44,7 +44,7 @@
 @media only screen and (max-width:376px) {
     .skillPage {
         flex-direction: column;
-        margin-top: 85px;
+        top: 160px;
     }
 
     .skillDetail {

@@ -81,11 +81,11 @@ skillsData.forEach((item)=>{
 
 const projectsData=[
     {
-        name: "School Managment System",
-        description:"Developed a semester project School Management System using Java GUI, applying GRASP principles with MySQL DataBase.",
-        imageSrc:"./sms.png",
-        source:"https://github.com/Irfankhan761/SMS_OOSE_JAVA",
-        demo:"https://github.com/Irfankhan761/SMS_OOSE_JAVA"
+        name: "Parallax Scrolling website",
+        description:"Developed an Upwork Project for Client Parallax Scrolling website using HTML, CSS, JavaScript, Ajax. Completetly Responsive Design ",
+        imageSrc:"./project1.png",
+        source:"https://github.com/Irfankhan761/Parallax-WebProject-Upwork",
+        demo:"https://irfankhan761.github.io/Parallax-WebProject-Upwork/"
 
     },
     {

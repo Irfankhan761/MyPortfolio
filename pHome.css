@@ -1,7 +1,7 @@
 /* Home Section CSS */
 .homePage {
     width: 90vw;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     align-items: center;
 }
@@ -26,8 +26,42 @@
     width: 400px;
     height: 400px;
 }
+@media only screen and (max-width:376px){
+    .homePage {
+        display: block;
+        width: 100%;
+        min-height: 78vh;
 
-@media only screen and (max-width:766px) {
+    }
+
+    .leftHome {
+        width: 80%;
+        font-size: 23px;
+        margin-left: 40px;
+        margin-top: 20px;
+        position: relative;
+        top: 260px;
+        z-index: -1;
+
+    }
+
+    .rightHome {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .rightHome img {
+        position: absolute;
+        top: 80px;
+        left: 60px;
+        width: 250px;
+        height: 250px;
+
+    }
+}
+@media only screen and (min-width:377px) and (max-width:766px) {
     .homePage {
         display: block;
         width: 100%;
@@ -65,6 +99,7 @@
 @media only screen and (min-width:767px) and (max-width:1023px) {
     .homePage {
         width: 92%;
+        height: 50vh;
         align-items: flex-start;
         position: relative;
         top: 120px;
