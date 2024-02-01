@@ -183,8 +183,23 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// night mode 
 function toggleNightMode() {
     // Toggle the 'night-mode' class on the body
     document.body.classList.toggle('night-mode');
+    setNavBg();
 }
+
+function setNavBg() {
+    const navColor = document.getElementsByClassName("navbar")[0];
+    const isNightMode = document.body.classList.contains('night-mode');
+
+    if (isNightMode) {
+        navColor.style.background = "#121212";
+        navColor.style.color = "#ffffff";
+    } else {
+        navColor.style.background = "";
+        navColor.style.color = "";
+    }
+}
+
+  

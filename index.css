@@ -3,7 +3,12 @@
     padding: 0px;
     font-family: Georgia, serif;
 }
+
 body.night-mode {
-    background-color: #121212;
+    background: #121212;
     color: #ffffff;
 }
+body{
+    background: linear-gradient(to right, #B9F9C6, #F8E7A9, #f5c1be);
+}
+
