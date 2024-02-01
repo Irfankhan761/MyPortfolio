@@ -182,3 +182,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// night mode 
+function toggleNightMode() {
+    // Toggle the 'night-mode' class on the body
+    document.body.classList.toggle('night-mode');
+}
