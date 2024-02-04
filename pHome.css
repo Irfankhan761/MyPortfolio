@@ -31,6 +31,7 @@
         display: block;
         width: 100%;
         min-height: 78vh;
+        
 
     }
 
@@ -42,6 +43,7 @@
         position: relative;
         top: 260px;
         z-index: -1;
+        
 
     }
 
@@ -65,7 +67,7 @@
     .homePage {
         display: block;
         width: 100%;
-        min-height: 80vh;
+        
     }
 
     .leftHome {
@@ -78,6 +80,7 @@
         z-index: -1;
 
     }
+
 
     .rightHome {
         width: 20%;
@@ -104,13 +107,16 @@
         height: 50vh;
         align-items: flex-start;
         position: relative;
-        top: 120px;
+        top: 35px;
+       
+        
 
     }
 
     .leftHome {
+        
         width: 50%;
-        font-size: 25px;
+        font-size: 22px;
 
     }
 
