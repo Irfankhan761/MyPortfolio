@@ -28,7 +28,7 @@
 }
 @media only screen and (max-width:376px){
     .homePage {
-        display: block;
+        /* display: block; */
         width: 100%;
         min-height: 78vh;
         
@@ -39,9 +39,9 @@
         width: 80%;
         font-size: 20px;
         margin-left: 40px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
         position: relative;
-        top: 260px;
+        top: 195px;
         z-index: -1;
         
 
@@ -65,7 +65,7 @@
 }
 @media only screen and (min-width:377px) and (max-width:766px) {
     .homePage {
-        display: block;
+        /* display: block; */
         width: 100%;
         
     }
@@ -74,9 +74,8 @@
         width: 80%;
         font-size: 23px;
         margin-left: 40px;
-        margin-top: 20px;
         position: relative;
-        top: 260px;
+        top: 190px;
         z-index: -1;
 
     }
