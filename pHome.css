@@ -1,7 +1,7 @@
 /* Home Section CSS */
 .homePage {
     width: 90vw;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     align-items: center;
 }
@@ -67,15 +67,16 @@
     .homePage {
         /* display: block; */
         width: 100%;
+        height: 70vh;
         
     }
 
     .leftHome {
-        width: 80%;
-        font-size: 23px;
+        width: 99%;
+        font-size: 22px;
         margin-left: 40px;
         position: relative;
-        top: 190px;
+        top: 170px;
         z-index: -1;
 
     }
@@ -103,10 +104,10 @@
 @media only screen and (min-width:767px) and (max-width:1023px) {
     .homePage {
         width: 92%;
-        height: 50vh;
+        height: 37vh;
         align-items: flex-start;
         position: relative;
-        top: 35px;
+        top: 55px;
        
         
 
