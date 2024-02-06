@@ -103,7 +103,7 @@
 
 @media only screen and (min-width:767px) and (max-width:1023px) {
     .homePage {
-        width: 96%;
+        width: 94%;
         min-height: 60vh;
         align-items: flex-start;
         position: relative;

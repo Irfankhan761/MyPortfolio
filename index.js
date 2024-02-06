@@ -16,7 +16,45 @@ function humbergerlist() {
     isOpen = !isOpen
 
 }
+// random
+// function getRandomColor() {
+//     const letters = '0123456789ABCDEF';
+//     let color = '#';
+//     for (let i = 0; i < 6; i++) {
+//       color += letters[Math.floor(Math.random() * 16)];
+//     }
+//     return color;
+//   }
 
+//   document.addEventListener('DOMContentLoaded', function() {
+//     const logo = document.querySelector('.logo');
+//     const text = logo.textContent;
+
+//     const coloredText = text.split('').map(function(char) {
+//       const span = document.createElement('span');
+//       span.textContent = char;
+//       span.style.color = getRandomColor();
+//       return span.outerHTML;
+//     }).join('');
+
+//     logo.innerHTML = coloredText;
+//   });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const logo = document.querySelector('.logo');
+    const text = logo.textContent;
+
+    const colors = ['#4285F4', '#EA4335', '#FBBC05', '#34A853']; // Add more colors as needed
+
+    const coloredText = text.split('').map(function(char, index) {
+      const span = document.createElement('span');
+      span.textContent = char;
+      span.style.color = colors[index % colors.length]; // Cycle through colors
+      return span.outerHTML;
+    }).join('');
+
+    logo.innerHTML = coloredText;
+  });
 
 // ADD Skills Section Dynamicaly
 const skillsData = [
