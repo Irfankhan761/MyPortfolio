@@ -1,19 +1,14 @@
 # My Portfolio
 
-Welcome to My Portfolio! This website showcases my skills and projects, highlighting my Skills and journey in web development.
+Welcome to My Portfolio! This website showcases my skills and projects, providing a glimpse into my journey in web development.
 
 ## Description
 
-My portfolio is a collection of web projects built with HTML, CSS, and JavaScript. Explore my work to get insights into my coding style, problem-solving approach, and the technologies I enjoy working with.
+My portfolio features a curated collection of web projects crafted with passion and precision, employing the latest technologies and best practices in HTML, CSS, and JavaScript. Dive into my work to gain insights into my coding style, problem-solving prowess, and the technologies I excel in.
 
 ## Live Demo
 
-Check out the live demo: [My Portfolio](https://irfankhan761.github.io/MyPortfolio/)
-
-## Screenshots
-
-![Screenshot 1](./screenshot1.png)
-![Screenshot 2](./screenshot2.png)
+Experience the live demo: [My Portfolio](https://irfankhan761.github.io/MyPortfolio/)
 
 ## Technologies Used
 
@@ -23,13 +18,13 @@ Check out the live demo: [My Portfolio](https://irfankhan761.github.io/MyPortfol
 
 ## Getting Started
 
-To run this project locally, follow these steps:
+To run this project locally, follow these simple steps:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/IrfanKhan761//MyPortfolio.git
-
+   git clone https://github.com/IrfanKhan761/MyPortfolio.git
+   
 2. Change into the project directory:
 cd your-portfolio
 
