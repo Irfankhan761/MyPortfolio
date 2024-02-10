@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio</title>
+    <title>My portfolio</title>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./pNavbar.css">
     <link rel="stylesheet" href="./pHomeBgAnimation.css">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./pProject.css">
     <link rel="stylesheet" href="./pEducation.css">
     <link rel="stylesheet" href="./pCertificate.css">
+    <link rel="stylesheet" href="/blog.css">
     <link rel="stylesheet" href="./pContact.css">
     <link rel="stylesheet" href="./pFooter.css">
     <style>
@@ -35,6 +36,8 @@
                 <li class="list"><a class="navBtn" href="#home">Home</a></li>
                 <li class="list"><a class="navBtn" href="#skills">Skills</a></li>
                 <li class="list"><a class="navBtn" href="#projects">Projects</a></li>
+                <li class="list"><a class="navBtn" href="#education">Education</a></li>
+                <li class="list"><a class="navBtn" href="#blogs">Blogs</a></li>
                 <li class="list"><a class="navBtn" href="#contact">Contact</a></li>
                 <li class="list"><img class="navBtn" src="./icons8-night-mode-32.png" alt=""
                         onclick="toggleNightMode()"></li>
@@ -209,7 +212,8 @@
         <div class="certificateItems">
             <img src="./Certificates/1 intro to front end.png" alt="">
             <h4 class="certificateName">Introduction to Front-End Development</h4>
-            <p class="certificateDescription">I have successfully earned the pythonIntroduction to Front-End Development certificate, showcasing my expertise
+            <p class="certificateDescription">I have successfully earned the pythonIntroduction to Front-End Development
+                certificate, showcasing my expertise
                 in fundamental web development concepts, as a valuable addition to my professional portfolio.</p>
             <small><b> Completion date: </b> 6 Feb 2023
             </small>
@@ -217,50 +221,81 @@
             <div class="certificateBtn">
                 <a href="./Certificates/1 Intro to front end.pdf" class="downloadBtn" target="_blank">Download
                 </a>
-                <a href="https://www.coursera.org/account/accomplishments/verify/RNB6EMB79YSG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" class="downloadBtn"
-                    target="_blank">Verify</a>
+                <a href="https://www.coursera.org/account/accomplishments/verify/RNB6EMB79YSG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                    class="downloadBtn" target="_blank">Verify</a>
             </div>
         </div>
     </div>
-
-        <!-- Contact Section -->
-        <div id="contact" class="line">
-            <p class="lineHeading">Contact Us</p>
+    <!-- Blogs Section -->
+    <div id="blogs" class="line">
+        <p class="lineHeading">Coding Blogs</p>
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="main-blog">
+        <div class="inner-blog">
+            <h3 class="blogHeading">A Comprehensive Guide to Using Stackry for International Shopping</h3>
+             <div class="about-blog">
+                <small class="author"><i>written By: </i>Irfan Khan</small>
+                <small class="date"><i>Date: </i>10 Feb 2024</small>
+             </div>
+             <p class="blog-content"> In today's interconnected world, the desire for cutting-edge tech gadgets, unique international products, and exclusive US deals has reached an unprecedented level. However, many consumers face the challenge of obtaining products not readily available in their home country. This is where Stackry emerges as a revolutionary solution, simplifying the process of ordering from the US and having it shipped effortlessly to India.</p>
+             <a class="blog-btn" href="">Read more</a>
         </div>
-
-        <div class="contactPage">
-            <div class="contactType">
-                <img src="./whatsapp-77fcc9db.png" alt="">
-                <h3 class="myInfo">03159046761</h3>
-
-                <a class="contctBtn" href="https://wa.me/+923159046761" target="_blank">Connect</a>
-
-            </div>
-            <div class="contactType">
-                <img src="./gmail-207f32a8.png" alt="">
-                <h3 class="myInfo">Irfandk1994@gmail.com</h3>
-                <a class="contctBtn" href="mailto:irfandk1994@gmail.com" target="_blank">Connect</a>
-
-            </div>
-            <div class="contactType">
-                <img src="./linkedin-7dcbc614.png" alt="">
-                <h3 class="myInfo">Irfan Khan</h3>
-                <a class="contctBtn" href="https://www.linkedin.com/in/irfan-khan-8b1227209/"
-                    target="_blank">Connect</a>
-
-            </div>
+        <br><hr><br>
+        <div class="inner-blog">
+            <h3 class="blogHeading">How Algorithmic Trading Systems Work</h3>
+             <div class="about-blog">
+                <small class="author"><i>written By: </i>Irfan Khan</small>
+                <small class="date"><i>Date: </i>10 Feb 2024</small>
+             </div>
+             <p class="blog-content"> In India, the popularity of online trading has helped transform the financial landscape. This has led to over 20% of all trading is now done via mobile through trading apps. In line with this, another development many traders have highlighted is the use of algorithmic trading systems to take advantage of ever-changing market opportunities. To date, algorithmic trading systems are used in up to 60% of all trading volume.</p>
+             <a class="blog-btn" href="">Read more</a>
         </div>
-        <!-- Footer Section -->
+        <!-- <br><hr><br> -->
+    </div>
 
-        <footer class="footer">
-            <img src="./FB_IMG_1637358783500-removebg-preview (1).png" alt="">
-            <h2 class="footerHeading">
-                Irfan Khan
-            </h2>
-            <p class="footerPara">|&nbsp; Copyright &copy; 2024 Irfandk.com</p>
-        </footer>
+    <!-- Contact Section -->
+    <div id="contact" class="line">
+        <p class="lineHeading">Contact Us</p>
+    </div>
 
-        <script src="./index.js"></script>
+    <div class="contactPage">
+        <div class="contactType">
+            <img src="./whatsapp-77fcc9db.png" alt="">
+            <h3 class="myInfo">03159046761</h3>
+
+            <a class="contctBtn" href="https://wa.me/+923159046761" target="_blank">Connect</a>
+
+        </div>
+        <div class="contactType">
+            <img src="./gmail-207f32a8.png" alt="">
+            <h3 class="myInfo">Irfandk1994@gmail.com</h3>
+            <a class="contctBtn" href="mailto:irfandk1994@gmail.com" target="_blank">Connect</a>
+
+        </div>
+        <div class="contactType">
+            <img src="./linkedin-7dcbc614.png" alt="">
+            <h3 class="myInfo">Irfan Khan</h3>
+            <a class="contctBtn" href="https://www.linkedin.com/in/irfan-khan-8b1227209/" target="_blank">Connect</a>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <img src="./FB_IMG_1637358783500-removebg-preview (1).png" alt="">
+        <h2 class="footerHeading">
+            Irfan Khan
+        </h2>
+        <p class="footerPara">|&nbsp; Copyright &copy; 2024 Irfandk.com</p>
+    </footer>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
