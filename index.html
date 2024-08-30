@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./pNavbar.css">
-    <link rel="stylesheet" href="./pHomeBgAnimation.css">
-    <link rel="stylesheet" href="./pHome.css">
-    <link rel="stylesheet" href="./pLine.css">
-    <link rel="stylesheet" href="./pSkilsl.css">
-    <link rel="stylesheet" href="./pProject.css">
-    <link rel="stylesheet" href="./pEducation.css">
-    <link rel="stylesheet" href="./pCertificate.css">
-    <link rel="stylesheet" href="./pBlog.css">
-    <link rel="stylesheet" href="./pContact.css">
-    <link rel="stylesheet" href="./pChat.css">
-    <link rel="stylesheet" href="./pFooter.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/pNavbar.css">
+    <link rel="stylesheet" href="./CSS/pNavbar.css">
+    <link rel="stylesheet" href="./CSS/pHomeBgAnimation.css">
+    <link rel="stylesheet" href="./CSS/pHome.css">
+    <link rel="stylesheet" href="./CSS/pLine.css">
+    <link rel="stylesheet" href="./CSS/pSkilsl.css">
+    <link rel="stylesheet" href="./CSS/pProject.css">
+    <link rel="stylesheet" href="./CSS/pEducation.css">
+    <link rel="stylesheet" href="./CSS/pCertificate.css">
+    <!-- <link rel="stylesheet" href="./CSS/pBlog.css"> -->
+    <link rel="stylesheet" href="./CSS/pContact.css">
+    <link rel="stylesheet" href="./CSS/pChat.css">
+    <link rel="stylesheet" href="./CSS/pFooter.css">
     <style>
 
     </style>
@@ -29,7 +30,7 @@
         <div class="leftNavbar">
             <div class="logo">Irfan Khan</div>
             <div class="humberger"><button class="humBtn" onclick="humbergerlist()">
-                    <img src="./icons8-hamburger-50.png" alt="" width="35px" height="35px">
+                    <img src="./Assets/Other/humberger.png" alt="" width="35px" height="35px">
                 </button></div>
         </div>
         <div class="rightNavbar ">
@@ -38,9 +39,10 @@
                 <li class="list"><a class="navBtn" href="#skills">Skills</a></li>
                 <li class="list"><a class="navBtn" href="#projects">Projects</a></li>
                 <li class="list"><a class="navBtn" href="#education">Education</a></li>
-                <li class="list"><a class="navBtn" href="#blogs">Blogs</a></li>
+                <!-- <li class="list"><a class="navBtn" href="https://github.com/Irfankhan761">Github</a></li> -->
+                <!-- <li class="list"><a class="navBtn" href="#blogs">Blogs</a></li> -->
                 <li class="list"><a class="navBtn" href="#contact">Contact</a></li>
-                <li class="list"><img class="navBtn" src="./icons8-night-mode-32.png" alt=""
+                <li class="list"><img class="navBtn" src="./Assets/Other/nightmode.png" alt=""
                         onclick="toggleNightMode()"></li>
             </ul>
         </div>
@@ -73,10 +75,11 @@
                 MongoDB,
                 and Firebase to deliver efficient and secure web applications. Explore my portfolio to see examples of
                 my
-                work in action.</p>
+                work in action here                 <a style="text-decoration: none; color: orangered; font-weight: bold;"  href="https://github.com/Irfankhan761" target="_blank">Github</a>.</p>
+
         </div>
         <div class="rightHome">
-            <img src="./FB_IMG_1637358783500-removebg-preview (1).png" alt="">
+            <img src="./Assets/Other/myimg.png" alt="">
         </div>
 
     </div>
@@ -87,7 +90,7 @@
 
     <div id="jsSkillData" class="skillPage">
         <div class="skillDetail">
-            <img src="./html-dcbfd618.png" alt="">
+            <img src="./Assets/SkillsImg/html.png" alt="">
             <h3 class="skillname">Html</h3>
             <p class="skilldescription">I am a skilled HTML professional, experienced in creating structured, semantic,
                 and accessible web content.</p>
@@ -99,7 +102,7 @@
         <p class="lineHeading">Projects</p>
     </div>
     <div id="jsProjects" class="projectPage">
-        <div class="projectItems">
+        <!-- <div class="projectItems">
             <img src="./sms.png" alt="">
             <h3 class="projectName">School Managment System</h3>
             <p class="projectDescription">Developed a semester project School Management System using Java GUI, applying
@@ -110,7 +113,7 @@
                 <a href="https://github.com/Irfankhan761/SMS_OOSE_JAVA" class="sourceDemoBtn" target="_blank">Demo</a>
             </div>
 
-        </div>
+        </div> -->
 
     </div>
     <!-- Education Section -->
@@ -131,9 +134,9 @@
 
             <h4>Comsats University Abbotabad</h4>
             <small>September 2020 - August 2024</small>
-            <p>I am currently pursuing a Bachelor's degree in Software Engineering at Comsats University Islamabad
+            <p>I completed a Bachelor's degree in Software Engineering from Comsats University Islamabad
                 Abbotabad Campus.</p>
-            <!-- I have completed 7 semesters and have a CGPA of 3.38/4.0 -->
+           <b style="font-family:'Arial Narrow', Arial, sans-serif;"> CGPA:3.37/4.0 (83%)</b>
         </div>
         <div class="program">
 
@@ -142,6 +145,7 @@
             <small>August 2018 - August 2020</small>
             <p>I completed my class 12 college education at Quaid-E-Azam Group of College Swabi , where I studied
                 Pre-Engineering with Computer.</p>
+                <b style="font-family:'Arial Narrow', Arial, sans-serif;"> Marks:861/1100 (78%)</b>
         </div>
         <div class="program">
 
@@ -150,6 +154,7 @@
             <small> March 2006 - May 2018</small>
             <p>I completed my class 10 education at Falcon Public School Totali (buner), where I studied Science with
                 Computer Application.</p>
+                <b style="font-family:'Arial Narrow', Arial, sans-serif;"> Marks:917/1100 (83%)</b>
 
         </div>
 
@@ -163,32 +168,28 @@
 
 
         <div class="certificateItems">
-            <img src="./Certificates/ccna-introduction-to-networks.png" alt="">
+            <img src="./Assets/Certificates/CertificateImg/1IrfanKhan-ITN-FA20-BSE-5B-certificate.png" alt="">
             <h4 class="certificateName">CCNA: Intro to Networks</h4>
-            <p class="certificateDescription">I have successfully earned the CCNA: Introduction to Networks certificate,
-                showcasing my expertise in fundamental networking concepts, as a valuable addition to my professional
-                portfolio.</p>
             <small><b> Completion date: </b> 21 Mar 2023
             </small>
             <small><b>Issue By: </b>Cisco</small>
             <div class="certificateBtn">
-                <a href="./Certificates/IrfanKhan-ITN-FA20-BSE-5B-certificate.pdf" class="downloadBtn"
+                <a href="./Assets/Certificates/1IrfanKhan-ITN-FA20-BSE-5B-certificate.pdf" class="downloadBtn"
                     target="_blank">Download
                 </a>
-                <a href="https://www.credly.com" class="downloadBtn" target="_blank">Verify</a>
+                <a href="https://www.credly.com/badges/26d1b048-ac35-4473-b81e-2003a83cd0b8/public_url" class="downloadBtn" target="_blank">Verify</a>
             </div>
+          
         </div>
         <!-- s -->
         <div class="certificateItems">
-            <img src="./Certificates/figma.png" alt="">
+            <img src="./Assets/Certificates/CertificateImg/2Figma.png" alt="">
             <h4 class="certificateName">Get Started with Figma</h4>
-            <p class="certificateDescription">I have successfully earned the basic Figma certificate, showcasing my
-                expertise in fundamental designing concepts, as a valuable addition to my professional portfolio.</p>
             <small><b> Completion date:</b> 20 Sep 2023
             </small>
             <small><b>Issue By: </b>Coursera</small>
             <div class="certificateBtn">
-                <a href="./Certificates/Coursera 2XQQ8J86WFQM.pdf" class="downloadBtn" target="_blank">Download
+                <a href="./Assets/Certificates/2Figma.pdf" class="downloadBtn" target="_blank">Download
                 </a>
                 <a href="https://coursera.org/share/3869d1ad8c7735131742d2e9325867e1" class="downloadBtn"
                     target="_blank">Verify</a>
@@ -196,39 +197,75 @@
         </div>
         <!-- s -->
         <div class="certificateItems">
-            <img src="./Certificates/python.png" alt="">
+            <img src="./Assets/Certificates/CertificateImg/3python.png" alt="">
             <h4 class="certificateName">Crash Course on Python</h4>
-            <p class="certificateDescription">I have successfully earned the python certificate, showcasing my expertise
-                in fundamental Programming concepts, as a valuable addition to my professional portfolio.</p>
             <small><b> Completion date: </b> 27 Dec 2023
             </small>
             <small><b>Issue By: </b>Google</small>
             <div class="certificateBtn">
-                <a href="./Certificates/pythonCertificate.pdf" class="downloadBtn" target="_blank">Download
+                <a href="./Assets/Certificates/3pythonCertificate.pdf" class="downloadBtn" target="_blank">Download
                 </a>
                 <a href="https://coursera.org/share/e273bf6026f560adb4ed186a99e8a17e" class="downloadBtn"
                     target="_blank">Verify</a>
             </div>
         </div>
         <div class="certificateItems">
-            <img src="./Certificates/1 intro to front end.png" alt="">
+            <img src="./Assets/Certificates/CertificateImg/4Intro_to_front-end.png" alt="">
             <h4 class="certificateName">Introduction to Front-End Development</h4>
-            <p class="certificateDescription">I have successfully earned the pythonIntroduction to Front-End Development
-                certificate, showcasing my expertise
-                in fundamental web development concepts, as a valuable addition to my professional portfolio.</p>
             <small><b> Completion date: </b> 6 Feb 2023
             </small>
             <small><b>Issue By: </b>Meta</small>
             <div class="certificateBtn">
-                <a href="./Certificates/1 Intro to front end.pdf" class="downloadBtn" target="_blank">Download
+                <a href="./Assets/Certificates/4Intro_to_front-end.pdf" class="downloadBtn" target="_blank">Download
                 </a>
                 <a href="https://www.coursera.org/account/accomplishments/verify/RNB6EMB79YSG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
                     class="downloadBtn" target="_blank">Verify</a>
             </div>
         </div>
+
+        <!-- new -->
+    <div class="certificateItems">
+            <img src="./Assets/Certificates/CertificateImg/5ProgrammingWithJavaScript.png" alt="">
+            <h4 class="certificateName">Programming with JavaScript</h4>
+            <small><b> Completion date: </b> 30 Apr 2024
+            </small>
+            <small><b>Issue By: </b>Meta</small>
+            <div class="certificateBtn">
+                <a href="./Assets/Certificates/5ProgrammingWithJavaScript.pdf" class="downloadBtn" target="_blank">Download
+                </a>
+                <a href="https://coursera.org/share/2f7a9c5ea48662c1ae08ba3021d0bedc"
+                    class="downloadBtn" target="_blank">Verify</a>
+            </div>
+        </div>
+        <div class="certificateItems">
+            <img src="./Assets/Certificates/CertificateImg/6GithubMeta.png" alt="">
+            <h4 class="certificateName">Version Control</h4>
+            <small><b> Completion date: </b> 14 Aug 2024
+            </small>
+            <small><b>Issue By: </b>Meta</small>
+            <div class="certificateBtn">
+                <a href="./Assets/Certificates/6GithubMeta.pdf" class="downloadBtn" target="_blank">Download
+                </a>
+                <a href="https://coursera.org/share/6dfde0580c0dbcc6bff41d6bbf622850"
+                    class="downloadBtn" target="_blank">Verify</a>
+            </div>
+        </div>
+        <div class="certificateItems">
+            <img src="./Assets/Certificates/CertificateImg/7ReactBasics.png" alt="">
+            <h4 class="certificateName">React Basics</h4>
+            <small><b> Completion date: </b> 29 Aug 2024
+            </small>
+            <small><b>Issue By: </b>Meta</small>
+            <div class="certificateBtn">
+                <a href="./Assets/Certificates/7ReactBasics.pdf" class="downloadBtn" target="_blank">Download
+                </a>
+                <a href="https://coursera.org/share/350ea674540eaecce64c6b3c3ecfda66"
+                    class="downloadBtn" target="_blank">Verify</a>
+            </div>
+        </div>
     </div>
     <!-- Blogs Section -->
-    <div id="blogs" class="line">
+    <!-- <div id="blogs" class="line">
         <p class="lineHeading">Coding Blogs</p>
     </div>
     <p>&nbsp;</p>
@@ -263,8 +300,8 @@
                 in up to 60% of all trading volume.</p>
             <a class="blog-btn" href="">Read more</a>
         </div>
-        <!-- <br><hr><br> -->
-    </div>
+       
+    </div> -->
 
     <!-- Contact Section -->
     <div id="contact" class="line">
@@ -273,22 +310,22 @@
 
     <div class="contactPage">
         <div class="contactType">
-            <img src="./whatsapp-77fcc9db.png" alt="">
+            <img src="./Assets/Contact/whatsapp.png" alt="">
             <h3 class="myInfo">03159046761</h3>
 
             <a class="contctBtn" href="https://wa.me/+923159046761" target="_blank">Connect</a>
 
         </div>
         <div class="contactType">
-            <img src="./gmail-207f32a8.png" alt="">
+            <img src="./Assets/Contact/gmail.png" alt="">
             <h3 class="myInfo">Irfandk1994@gmail.com</h3>
             <a class="contctBtn" href="mailto:irfandk1994@gmail.com" target="_blank">Connect</a>
 
         </div>
         <div class="contactType">
-            <img src="./linkedin-7dcbc614.png" alt="">
+            <img src="./Assets/Contact/linkedin.png" alt="">
             <h3 class="myInfo">Irfan Khan</h3>
-            <a class="contctBtn" href="https://www.linkedin.com/in/irfan-khan-8b1227209/" target="_blank">Connect</a>
+            <a class="contctBtn" href="https://www.linkedin.com/in/irfankhan761/" target="_blank">Connect</a>
 
         </div>
     </div>
@@ -303,7 +340,7 @@
     <!-- Footer Section -->
 
     <footer class="footer">
-        <img src="./FB_IMG_1637358783500-removebg-preview (1).png" alt="">
+        <img src="./Assets/Other/myimg.png" alt="">
         <h2 class="footerHeading">
             Irfan Khan
         </h2>
